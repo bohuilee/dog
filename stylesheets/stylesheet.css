@@ -22,7 +22,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
+  margin: 0.5%;
   padding: 0;
   border: 0;
   font: inherit;
@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -1px;
 }
 
-h1 {
+
+h1{
   font-size: 36px;
   font-weight: 700;
   color:#D1BBFF;
@@ -356,6 +357,14 @@ Full-Width Styles
   background: #212121;
 }
 
+#dog_intro{
+  font-size: 35px;
+  font-weight: 700;
+  color:#FF7744;
+  position: relative;
+  bottom: 80px;
+  left: 400px;
+}
 
 
 /*******************************************************************************
@@ -378,6 +387,15 @@ Small Device Styles
 
   #project_title {
   font-size: 32px;
+  }
+
+  #dog_intro{
+  font-size: 15px;
+  font-weight: 500;
+  color:#FF7744;
+  position: relative;
+  bottom: 50px;
+  left: 200px;
   }
 
   h1 {
@@ -408,6 +426,17 @@ Small Device Styles
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
+  }
+
+  img {
+  /* IE7、FF等其他非 IE 瀏覽器下最大寬度為 500px , IE6 以下不支援 max-width 屬性 */
+  max-width:250px;
+  /* 所有瀏覽器中圖片的大小為 500px */
+  width:250px;
+  /* 當圖片大小大於 500px，自動縮小為 500px */
+  width:expression(document.body.clientWidth>250?"250px":"auto");
+  overflow:hidden;
+  border-radius: 50%;
   }
 
 }
