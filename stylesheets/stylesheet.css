@@ -140,17 +140,6 @@ strong {
   border-radius: 90px;
 }
 
-#p_dog_intro{
-  font-family: Microsoft JhengHei;
-  margin-left :18%;
-  margin-top :-5%;
-  font-size:large;
-  font-weight: 900;
-  color:#0000CC;
-  font-size:250%;
-  font-weight: bold;
-}
-
 pre, code {
   width: 100%;
   color: #222;
