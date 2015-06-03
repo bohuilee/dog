@@ -394,6 +394,20 @@ img {
   opacity: 0.3;
 }
 
+@media(max-width:767px) {
+    img {
+     /* IE7、FF等其他非 IE 瀏覽器下最大寬度為 500px , IE6 以下不支援 max-width 屬性 */
+     max-width:100px;
+     /* 所有瀏覽器中圖片的大小為 500px */
+     width:100px;
+     /* 當圖片大小大於 500px，自動縮小為 500px */
+     width:expression(document.body.clientWidth>100?"100px":"auto");
+     overflow:hidden;
+     border-radius: 50%;
+     opacity: 0.3;
+    }
+}
+
 a:hover img{
   opacity: 1;
   position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
