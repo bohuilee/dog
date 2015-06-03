@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 36px;
   font-weight: 700;
+  color:#D1BBFF;
 }
 
 h2 {
@@ -131,13 +132,6 @@ em {
 
 strong {
   font-weight: bold;
-}
-
-.avatar-image-container img {
-  margin: 1.5%;
-  width: 20%; height: 50%;
-  border: 20% solid #ccc;
-  border-radius: 90px;
 }
 
 pre, code {
@@ -237,6 +231,17 @@ td {
 form {
   background: #f2f2f2;
   padding: 20px;
+}
+
+img {
+  /* IE7、FF等其他非 IE 瀏覽器下最大寬度為 500px , IE6 以下不支援 max-width 屬性 */
+  max-width:500px;
+  /* 所有瀏覽器中圖片的大小為 500px */
+  width:500px;
+  /* 當圖片大小大於 500px，自動縮小為 500px */
+  width:expression(document.body.clientWidth>500?"500px":"auto");
+  overflow:hidden;
+  border-radius: 50%;
 }
 
 /*******************************************************************************
