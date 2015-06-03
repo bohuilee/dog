@@ -1,0 +1,21 @@
+body {
+    background: white;
+}
+
+.avatar-image-container img {
+	margin: 1.5%;
+	width: 20%; height: 50%;
+	border: 20% solid #ccc;
+	border-radius: 90px;
+}
+
+#p_dog_intro{
+	font-family: Microsoft JhengHei;
+	margin-left :18%;
+	margin-top :-5%;
+	font-size:large;
+	font-weight: 900;
+	color:#0000CC;
+	font-size:250%;
+	font-weight: bold;
+}
