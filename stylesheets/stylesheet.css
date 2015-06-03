@@ -133,28 +133,22 @@ strong {
   font-weight: bold;
 }
 
-img {
-  position: relative;
-  margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+.avatar-image-container img {
+  margin: 1.5%;
+  width: 20%; height: 50%;
+  border: 20% solid #ccc;
+  border-radius: 90px;
 }
 
-p img {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-  text-align: center;
-  border: none;
+#p_dog_intro{
+  font-family: Microsoft JhengHei;
+  margin-left :18%;
+  margin-top :-5%;
+  font-size:large;
+  font-weight: 900;
+  color:#0000CC;
+  font-size:250%;
+  font-weight: bold;
 }
 
 pre, code {
