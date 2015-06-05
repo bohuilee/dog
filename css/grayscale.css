@@ -197,10 +197,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #444444;
+    border: 2px solid #fff;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #444444;
+    color: #4fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -211,9 +211,9 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #00AA55;
+    color: #fff;
     background: rgba(255,255,255,.1);
-    border: 2px solid #00AA55;
+    border: 2px solid #fff;
 }
 
 .btn-circle i.animated {
